@@ -38,25 +38,25 @@ h1, h2 {
 
 /*=====NAVBAR=====*/
 
-.navbar {
-  margin-bottom: 0;
+#navbar {
+/*  margin-bottom: 0;*/
 }
-.navbar_custom {
+#navbar {
   background: #FFFFFF;
 }
-.navbar-default .navbar-nav>li>a:hover {
+#navbar .navbar-nav>li>a:hover {
   color: #00B6DB;
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out;  
 }
-.navbar_custom .logo_img{
+#navbar .logo_img{
   width: 75px;
   margin-top: -12px;
 }
-.navbar_custom .spacing {
+#navbar .spacing {
   letter-spacing: 2px;
 }
-.navbar_custom .navbar-right i {
+#navbar .navbar-right i {
   padding-right: 5px;
 }
 
@@ -133,15 +133,15 @@ footer i {
   }
 }
 @media (min-width: 768px) {
-  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+  #navbar .navbar-nav>.active>a, #navbar .navbar-nav>.active>a:hover {
     border-top: 2px solid #00B6DB;
     background-color: transparent;
     color: #00B6DB;
   }
-  .navbar_custom li a {
+  #navbar .navbar-nav li a {
     border-top: 2px solid transparent;
   }
-  .navbar_custom li a:hover {
+  #navbar .navbar-nav li a:hover {
     border-top: 2px solid #00B6DB;
     -webkit-transition: all .5s ease-out;
     transition: all .5s ease-out;
