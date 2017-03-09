@@ -7,7 +7,7 @@ $(document).ready(function() {
       $('.navbar-toggle:visible').click();
   });
   
-  // SCROLL REVEAL ANIMATION  
+// SCROLL REVEAL ANIMATION  
   
   window.sr = ScrollReveal();
   sr.reveal('.sr_blurb', {
